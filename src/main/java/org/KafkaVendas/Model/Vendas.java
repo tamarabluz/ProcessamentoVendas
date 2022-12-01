@@ -3,6 +3,11 @@ package org.KafkaVendas.Model;
 import java.math.BigDecimal;
 
 public class Vendas {
+
+    public Vendas() {
+
+    }
+
     public Vendas(Long operacao, Long cliente, Integer quantidadeIngressos, BigDecimal valorTolal) {
         this.operacao = operacao;
         this.cliente = cliente;
